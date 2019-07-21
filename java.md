@@ -1,4 +1,5 @@
 # Java Technical Round Questions
+<mark style="background-color: lightblue">Marked text</mark>
 
 1. What is `String Immutability`?
 - Java String is immutable which means it cannot be changed. 
