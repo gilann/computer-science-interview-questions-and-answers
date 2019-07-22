@@ -87,6 +87,24 @@ public final class FinalClassExample {
   > accessible only to classes inside the same package
 - Nested interfaces and classes can have all access specifiers(public, private, protcted, default)
 6. What are different `access specifiers` in Java?
-7. How to write `nested interfaces and classes` in Java?
+7. How to write `nested` interfaces and classes in Java?
 8. What is difference between `abstract` class and `interface`?
 9. What is the use of `final` keyword in Java?
+10. Write a Java code to demonstrate `dynamic method dispatch`.
+11. Can `static`, `private`, `final` methods be overridden in Java?
+12. How will you achieve `Multiple Inheritance` in JAVA?
+13. What is `static` class in Java?
+14. What is the difference between `inner class` and `nested class`?
+15. Explain final class, final method, final varaible.
+16. What is `singleton` class? Write a code to explain how does it work.
+17. When can you override `clone method` of Object class?
+18. What is `tagging interface`?
+19. What is an `extensible framework`?
+20. Why JAVA is `platform independent`?
+21. Can we have `multiple constructors` in a class. How to implement it?
+- Yes, by constructor overloading.
+22. What is `super` and `this`?
+23. What is the difference between `String Builder` and `String Buffer`?
+- Buffer is `thread safe`, but the other is not.
+24. Explain internal working of `Hash-map` in java.
+25. 
