@@ -87,6 +87,14 @@ public final class FinalClassExample {
   > accessible only to classes inside the same package
 - Nested interfaces and classes can have all access specifiers(public, private, protcted, default)
 6. What are different `access specifiers` in Java?
+- `public`
+  > accessible to any class in any package
+- `default` (when no specifier is mentioned)
+  > accessible only to classes inside the same package
+- `private`
+  > accessible to only that particular class in which it is defined.
+- `protected`
+  > accessible to its particular class and by its subclass.
 7. How to write `nested` interfaces and classes in Java?
 8. What is difference between `abstract` class and `interface`?
 9. What is the use of `final` keyword in Java?
