@@ -80,6 +80,7 @@ public final class FinalClassExample {
 ```
 3. What is defference between `deep` and `shallow` copy?
 4. What are the advantages of `string immutability`?
+- > Being immutable guarantees that `hashcode` will always the same, so that it can be cached without worrying the changes.That means, there is no need to calculate hashcode every time it is used. This is more efficient.
 5. What are different `access specifiers` of Java Class?
 - `public`
   > accessible to any class in any package
@@ -99,10 +100,10 @@ public final class FinalClassExample {
 8. What is difference between `abstract` class and `interface`?
 9. What is the use of `final` keyword in Java?
 10. Write a Java code to demonstrate `dynamic method dispatch`.
-- > Static classes are basically a way of grouping classes together in Java. Java doesn't allow you to create top-level static classes; only nested (inner) static classes. A static inner class is a nested class which is a static member of the outer class. It can be accessed without instantiating the outer class, using other static members. Just like static members, a static nested class does not have access to the instance variables and methods of the outer class.
 11. Can `static`, `private`, `final` methods be overridden in Java?
 12. How will you achieve `Multiple Inheritance` in JAVA?
 13. What is `static` class in Java?
+- > `Static` classes are basically a way of grouping classes together in Java. Java doesn't allow you to create top-level static classes; only nested (inner) static classes. A static inner class is a nested class which is a static member of the outer class. It can be accessed without instantiating the outer class, using other static members. Just like static members, a static nested class does not have access to the instance variables and methods of the outer class.
 14. What is the difference between `inner class` and `nested class`?
 15. Explain final class, final method, final varaible.
 16. What is `singleton` class? Write a code to explain how does it work.
