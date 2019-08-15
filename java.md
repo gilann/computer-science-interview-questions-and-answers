@@ -99,6 +99,7 @@ public final class FinalClassExample {
 8. What is difference between `abstract` class and `interface`?
 9. What is the use of `final` keyword in Java?
 10. Write a Java code to demonstrate `dynamic method dispatch`.
+- > Static classes are basically a way of grouping classes together in Java. Java doesn't allow you to create top-level static classes; only nested (inner) static classes. A static inner class is a nested class which is a static member of the outer class. It can be accessed without instantiating the outer class, using other static members. Just like static members, a static nested class does not have access to the instance variables and methods of the outer class.
 11. Can `static`, `private`, `final` methods be overridden in Java?
 12. How will you achieve `Multiple Inheritance` in JAVA?
 13. What is `static` class in Java?
