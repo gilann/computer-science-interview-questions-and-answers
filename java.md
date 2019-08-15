@@ -78,7 +78,7 @@ public final class FinalClassExample {
 	}
 }
 ```
-3. What is defference between `deep` and `shallow` copy?
+3. What is difference between `deep` and `shallow` copy?
 4. What are the advantages of `string immutability`?
 - > Being immutable guarantees that `hashcode` will always the same, so that it can be cached without worrying the changes.That means, there is no need to calculate hashcode every time it is used. This is more efficient.
 5. What are different `access specifiers` of Java Class?
@@ -102,10 +102,15 @@ public final class FinalClassExample {
 10. Write a Java code to demonstrate `dynamic method dispatch`.
 11. Can `static`, `private`, `final` methods be overridden in Java?
 12. How will you achieve `Multiple Inheritance` in JAVA?
+- > We CANNOT extend two objects, but we can `implement` two interfaces. Interfaces don't simulate multiple inheritance. Java creators considered multiple inheritance wrong, so there is no such thing in Java.
 13. What is `static` class in Java?
 - > `Static` classes are basically a way of grouping classes together in Java. Java doesn't allow you to create top-level static classes; only nested (inner) static classes. A static inner class is a nested class which is a static member of the outer class. It can be accessed without instantiating the outer class, using other static members. Just like static members, a static nested class does not have access to the instance variables and methods of the outer class.
 14. What is the difference between `inner class` and `nested class`?
 15. Explain final class, final method, final varaible.
+- > `final with class` - The class cannot be subclassed. Whenever we declare any class as final, it means that we can’t extend that class or that class can’t be extended or we can’t make subclass of that class. 
+- > `final with method` - The method cannot be overridden by a subclass. Whenever we declare any method as final, then it means that we can’t override that method.
+- > `final with variables` - The value of variable cannot be changed once intialized. If we declare any variable as final, we can’t modify its contents since it is final, and if we modify it then we get Compile Time Error.
+`Note` : If a class is declared as final then `by default` all of the methods present in that class are automatically final but `variables are not`.
 16. What is `singleton` class? Write a code to explain how does it work.
 17. When can you override `clone method` of Object class?
 18. What is `tagging interface`?
